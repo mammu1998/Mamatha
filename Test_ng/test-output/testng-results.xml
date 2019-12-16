@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26748" started-at="2019-12-11T06:28:43Z" finished-at="2019-12-11T06:29:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26748" started-at="2019-12-11T06:28:43Z" finished-at="2019-12-11T06:29:10Z">
+      <class name="NopCommerce.TC_03">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:NopCommerce.TC_03@28d25987]" name="beforeMethod" is-config="true" duration-ms="22861" started-at="2019-12-11T11:58:43Z" finished-at="2019-12-11T11:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:NopCommerce.TC_03@28d25987]" name="test" duration-ms="3859" started-at="2019-12-11T11:59:06Z" finished-at="2019-12-11T11:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:NopCommerce.TC_03@28d25987]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-11T11:59:10Z" finished-at="2019-12-11T11:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- NopCommerce.TC_03 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

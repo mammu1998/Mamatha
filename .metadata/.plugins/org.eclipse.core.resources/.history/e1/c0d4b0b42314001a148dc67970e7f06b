@@ -1,0 +1,40 @@
+package xssp;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class NopXssp {
+
+	public static void main(String[] args) throws IOException {
+		File f=new File("C:\\Users\\T MAMATHA\\Documents\\testcase1.xlsx");
+		FileInputStream fis=new FileInputStream(f);
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		XSSFSheet sheet=workbook.getSheet("Data");
+		XSSFRow row=sheet.getRow(1);
+		XSSFCell cell=row.getCell(2);
+		switch (cell.getCellTypeEnum()) {
+		case STRING:
+			String testbox=(cell.getStringCellValue());
+			System.out.println(testbox);
+			break;
+			
+		case NUMERIC:
+			int value=(Integer.valueOf((int) cell.getNumericCellValue()));
+			System.out.println(value);
+			break;
+
+		default:
+			break;
+		
+
+	}
+
+}
+}

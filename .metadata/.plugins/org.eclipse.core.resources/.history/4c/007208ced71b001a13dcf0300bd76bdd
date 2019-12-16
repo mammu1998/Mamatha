@@ -1,0 +1,16 @@
+package NopCommerce;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class TC_03 extends Common {
+	@Test
+	public void test() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@class='search-box-text ui-autocomplete-input']")).sendKeys("laptop");
+		
+		
+	}
+
+}

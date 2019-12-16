@@ -1,0 +1,13 @@
+package NopCommerce;
+
+import org.testng.annotations.Test;
+
+public class TC_01 extends Common {
+	@Test
+	public void test()
+	{
+		String xpath="(//div[@class='sublist-toggle']/preceding-sibling::a)[1]";
+		driver.navigate().to(xpath);
+	}
+
+}

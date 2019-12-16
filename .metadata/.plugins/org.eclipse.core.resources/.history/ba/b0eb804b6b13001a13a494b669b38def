@@ -1,0 +1,15 @@
+package Mamatha_Maven.Mamatha_Maven;
+
+public class ChromLauncher {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe" );
+		
+		String url="https://www.nopcommerce.com/register?returnUrl=%2Fdemo";
+		driver.get(url);
+		
+		
+		
+	}
+
+}

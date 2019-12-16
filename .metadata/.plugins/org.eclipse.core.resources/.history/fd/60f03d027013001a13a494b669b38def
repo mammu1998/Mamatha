@@ -1,0 +1,13 @@
+package maven;
+
+public class NopCommece {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","chromedriver");
+		WebDriver driver=new ChromeDriver();
+		String url="https://www.nopcommerce.com/register?returnUrl=%2Fdemo";
+
+
+	}
+
+}
